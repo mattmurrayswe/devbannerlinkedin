@@ -7,6 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+    <script src="{{URL::asset('/js/gerar-banner.js')}}"></script>
     <style>
         /* Define the custom font */
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
