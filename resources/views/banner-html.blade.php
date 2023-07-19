@@ -6,10 +6,10 @@
         <p class="text-white flex justify-end">matheusmurraydev@gmail.com</p>
     </div>
     <div id="tecs" class="flex justify-end self-end w-full">
-        <img class="m-8" src="{{URL::asset('/image/aws-white.svg')}}" alt="profile Pic" width="180">
-        <img class="m-8" src="{{URL::asset('/image/aws-white.svg')}}" alt="profile Pic" width="180">
-        <img class="m-8" src="{{URL::asset('/image/aws-white.svg')}}" alt="profile Pic" width="180">
-        <img class="m-8" src="{{URL::asset('/image/aws-white.svg')}}" alt="profile Pic" width="180">
+        <img class="m-8" src="{{URL::asset('/image/csharp.svg')}}" alt="profile Pic" width="180">
+        <img class="m-8" src="{{URL::asset('/image/node.svg')}}" alt="profile Pic" width="180">
+        <img class="m-8" src="{{URL::asset('/image/ruby.svg')}}" alt="profile Pic" width="180">
+        <img class="m-8" src="{{URL::asset('/image/gcp.svg')}}" alt="profile Pic" width="180">
     </div>
 </div>
 
