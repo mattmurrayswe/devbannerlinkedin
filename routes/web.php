@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/banners', function () {
     return view('banners');
 });
+
+Route::get('/banner-html', function () {
+    return view('banner-html');
+});
