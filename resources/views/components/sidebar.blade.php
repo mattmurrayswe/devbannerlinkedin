@@ -1,9 +1,14 @@
 <div id="side-navbar" class="fixed min-h-screen bg-gray-200 w-1/5 shadow-2xl py-2">
-    <div id="logo-brease" class="text-3xl p-3 text-gray-900 flex justify-center py-16">
+    <!-- <div id="logo-brease" class="text-3xl p-3 text-gray-900 flex justify-center py-16">
         <div class="w-7 mr-2 flex justify-center">
             <img src="{{URL::asset('/image/box-black.svg')}}" alt="profile Pic" height="30" width="30">
         </div>
         devbannerlinkedin
+    </div> -->
+    <div id="logo-devbannerlinkedin" class="text-3xl p-3 text-gray-900 flex justify-center py-16">
+        <div class="mr-2 flex justify-center">
+            <img src="{{URL::asset('/image/dg.devbannerlinkedin.png')}}" alt="profile Pic" height="220" width="220">
+        </div>
     </div>
 
     <div class="p-3 pt-12 text-gray-900 mx-4 text-blue-500 hover:text-blue-800">
