@@ -11,7 +11,7 @@
                         <div class="w-7 mr-3 flex justify-center">
                             <img src="{{URL::asset('/image/box-black.svg')}}" alt="profile Pic" height="30" width="30">
                         </div>
-                        <p>Gerar Banner</p>
+                        <p>Gerador de Banner</p>
                     </a>
                 </div>
                 <div id="perfil flex content-center" class="text-gray-900 text-xl font-medium underline">

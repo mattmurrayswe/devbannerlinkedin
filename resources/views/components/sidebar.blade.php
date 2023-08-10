@@ -1,4 +1,4 @@
-<div id="side-navbar" class="fixed min-h-screen bg-gray-200 w-1/5 shadow-2xl py-2">
+<div id="side-navbar" class="fixed min-h-screen w-1/5 shadow-2xl py-2">
     <!-- <div id="logo-brease" class="text-3xl p-3 text-gray-900 flex justify-center py-16">
         <div class="w-7 mr-2 flex justify-center">
             <img src="{{URL::asset('/image/box-black.svg')}}" alt="profile Pic" height="30" width="30">
