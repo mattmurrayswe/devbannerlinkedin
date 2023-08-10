@@ -6,9 +6,16 @@ function downloadBanner(idDiagnostico) {
     idTec2 = $(`#id-tec-2`).val()
     idTec3 = $(`#id-tec-3`).val()
     idTec4 = $(`#id-tec-4`).val()
-
+    console.log(
+        email,
+        position,
+        idTec1,
+        idTec2,
+        idTec3,
+        idTec4,        
+    )
     $.ajax({
-        url: `http://localhost/api/download-banner`,
+        url: `${ENDPOINT_JS}/api/download-banner`,
         type: "POST",
         data: {
             email: email,

@@ -25,4 +25,8 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
+    <div id="endpoint-js" data-value="{{ env('ENDPOINT_JS') }}"></div>
+    <script>
+        const ENDPOINT_JS = document.getElementById('endpoint-js').dataset.value
+    </script>
 </head>
