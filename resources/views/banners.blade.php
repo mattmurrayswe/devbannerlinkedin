@@ -4,7 +4,7 @@
     <div class="container flex min-h-screen min-w-full h-screen">
         @include('components.sidebar')
 
-        <div id="container-content" class="ml-[20%] w-4/5 p-20 h-screen">
+        <div id="container-content" class="ml-[20%] w-4/5 p-20 h-screen bg-dots-darker">
             <div class="header flex justify-between content-center">
                 <div id="titulo-pagina" class="text-gray-900 text-xl font-medium underline">
                     <a class="flex" href="">
