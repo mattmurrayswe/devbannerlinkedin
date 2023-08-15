@@ -29,7 +29,7 @@ function downloadBanner(idDiagnostico) {
 
             console.log(data)
             if (status === "success") {
-                location.reload();
+                
             }
 
         }
