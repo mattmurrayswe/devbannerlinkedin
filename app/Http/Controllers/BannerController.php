@@ -13,27 +13,48 @@ use Illuminate\Support\Facades\Response; // Import the Response facade
 
 class BannerController extends Controller
 {    
+   
     public function downloadBanner(Request $request)
     {
         // Generate a unique name for the banner
         $uniqueName = Str::random(10) . '_' . time() . '.png';
     
-        // Create a black banner
+        // Create a black banner canvas
         $banner = Image::canvas(1585, 396, '#000000');
     
-        // Save the black banner with the unique name in the public/banners directory
+        // Load, resize, and position PNG images
+        $pngFiles = ['react.png', 'node.png', 'firebase.png', 'gcp.png'];
+        $imageWidth = 120;
+        $spacing = 20; // Adjust spacing between images as needed
+    
+        // Calculate the total width needed for all images and spacing
+        $totalWidth = (count($pngFiles) * $imageWidth) + ((count($pngFiles) - 1) * $spacing);
+    
+        $xPosition = $banner->width() - $totalWidth - $spacing; // Start from the right with spacing
+        $yPosition = $banner->height() - 20 - $imageWidth; // Bottom margin
+    
+        foreach ($pngFiles as $pngFile) {
+            $png = Image::make(public_path('image/' . $pngFile));
+            $png->resize($imageWidth, null, function ($constraint) {
+                $constraint->aspectRatio();
+            });
+    
+            // Position the image on the banner
+            $banner->insert($png, 'bottom-right', $xPosition, $yPosition);
+    
+            // Update X position for the next image
+            $xPosition += $imageWidth + $spacing;
+        }
+    
+        // Save the banner with the PNG images
         $banner->save(public_path('banners/' . $uniqueName));
     
-        // Get the full path to the saved banner
-        $bannerPath = public_path('banners/' . $uniqueName);
-    
         // Return the banner image as a response
-        return Response::file($bannerPath, [
+        return Response::file(public_path('banners/' . $uniqueName), [
             'Content-Type' => 'image/png',
             'Content-Disposition' => 'inline; filename=' . $uniqueName,
         ]);
     }
-    
 
     public function downloadBannerByHTMLIntoPDFIntoImage(Request $request)
     {
