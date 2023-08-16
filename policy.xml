@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policymap [
+  <!ELEMENT policymap (policy)*>
+  <!ATTLIST policymap xmlns CDATA #FIXED ''>
+  <!ELEMENT policy EMPTY>
+  <!ATTLIST policy xmlns CDATA #FIXED '' domain NMTOKEN #REQUIRED
+    name NMTOKEN #IMPLIED pattern CDATA #IMPLIED rights NMTOKEN #IMPLIED
+    stealth NMTOKEN #IMPLIED value CDATA #IMPLIED>
+]>
+<policymap>
+  <!-- Allow PDF reading and writing -->
+  <policy domain="coder" rights="read|write" pattern="PDF" />
+
+  <!-- Configure other policies as needed -->
+  <policy domain="resource" name="memory" value="256MiB"/>
+  <policy domain="resource" name="map" value="512MiB"/>
+  <policy domain="resource" name="width" value="16KP"/>
+  <policy domain="resource" name="height" value="16KP"/>
+  <policy domain="resource" name="area" value="128MP"/>
+  <policy domain="resource" name="disk" value="1GiB"/>
+  
+  <!-- Add other policies here -->
+
+  <!-- Disable other formats if needed -->
+  <policy domain="coder" rights="none" pattern="PS" />
+  <policy domain="coder" rights="none" pattern="PS2" />
+  <policy domain="coder" rights="none" pattern="PS3" />
+  <policy domain="coder" rights="none" pattern="EPS" />
+  <!-- policy for XPS if needed -->
+  <policy domain="coder" rights="none" pattern="XPS" />
+</policymap>
