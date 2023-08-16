@@ -12,8 +12,7 @@ use Intervention\Image\Facades\Image;
 use Illuminate\Support\Facades\Response; // Import the Response facade
 
 class BannerController extends Controller
-{    
-   
+{
     public function downloadBanner(Request $request)
     {
         // Generate a unique name for the banner
@@ -43,8 +42,29 @@ class BannerController extends Controller
             $xPosition -= $png->width() + $spacing;
         }
     
-        // Save the banner with the PNG images
-        $banner->save(public_path('banners/' . $uniqueName));
+        $email = 'matheusmurraydev@gmail.com';
+        $position = 'SOFTWARE ENGINEER';
+        $textColor = imagecolorallocate($banner->getCore(), 255, 255, 255); // White color
+        $fontSize = 18;
+        $textXPosition = 20; // Adjust X position for text
+        $textYPosition = 20; // Adjust Y position for text
+    
+        // Load the 'Roboto' font from public/fonts directory
+        $fontPath = public_path('fonts/Roboto-Regular.ttf'); // Path to the downloaded 'Roboto' font
+    
+        // Load the image's GD resource
+        $imageResource = $banner->getCore();
+    
+        // Add email text using GD library
+        imagettftext($imageResource, $fontSize, 0, $textXPosition, $textYPosition, $textColor, $fontPath, $email);
+    
+        $textYPosition += $fontSize + 5; // Adjust Y position for the next text
+    
+        // Add position text using GD library
+        imagettftext($imageResource, $fontSize, 0, $textXPosition, $textYPosition, $textColor, $fontPath, $position);
+    
+        // Save the banner with the PNG images and text
+        imagepng($imageResource, public_path('banners/' . $uniqueName));
     
         // Return the banner image as a response
         return Response::file(public_path('banners/' . $uniqueName), [
