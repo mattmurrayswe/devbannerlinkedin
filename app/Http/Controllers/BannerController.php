@@ -27,11 +27,7 @@ class BannerController extends Controller
         $imageWidth = 120;
         $spacing = 20; // Adjust spacing between images as needed
     
-        // Calculate the total width needed for all images and spacing
-        $totalWidth = (count($pngFiles) * $imageWidth) + ((count($pngFiles) - 1) * $spacing);
-    
-        $xPosition = $banner->width() - $totalWidth - $spacing; // Start from the right with spacing
-        $yPosition = $banner->height() - 20 - $imageWidth; // Bottom margin
+        $xPosition = $banner->width() - $spacing; // Start from the right edge of the banner
     
         foreach ($pngFiles as $pngFile) {
             $png = Image::make(public_path('image/' . $pngFile));
@@ -40,10 +36,11 @@ class BannerController extends Controller
             });
     
             // Position the image on the banner
-            $banner->insert($png, 'bottom-right', $xPosition, $yPosition);
+            $yPosition = $banner->height() - $png->height() - 20; // Adjust the Y position as needed
+            $banner->insert($png, 'top-left', $xPosition - $png->width(), $yPosition);
     
             // Update X position for the next image
-            $xPosition += $imageWidth + $spacing;
+            $xPosition -= $png->width() + $spacing;
         }
     
         // Save the banner with the PNG images
