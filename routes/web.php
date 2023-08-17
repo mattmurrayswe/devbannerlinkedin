@@ -17,10 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/banners', function () {
-    return view('banners');
-});
-
 Route::get('/gerar-banner', function () {
     return view('gerar-banner');
 });

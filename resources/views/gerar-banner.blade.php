@@ -43,8 +43,8 @@
                 <input id="email" value="matheusmurraydev@gmail.com" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
 
                 <label class="block mb-3 mt-16 text-large font-medium text-gray-900 dark:text-white">1ª Tecnologia</label>
-                <select id="id-tec-1" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option selected value="React">React</option>
+                <select id="tec-1" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                    <option selected value="react">React</option>
                     <option value="Vue">Vue</option>
                     <option value="Node">Node</option>
                     <option value="Laravel">Laravel</option>
@@ -57,10 +57,10 @@
                     <option value="Azure">Azure</option>
                 </select>
                 <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">2ª Tecnologia</label>
-                <select id="id-tec-2" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <select id="tec-2" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option value="React">React</option>
-                    <option selected value="Vue">Vue</option>
-                    <option value="Node">Node</option>
+                    <option value="Vue">Vue</option>
+                    <option selected value="node">Node</option>
                     <option value="Laravel">Laravel</option>
                     <option value="PHP">PHP</option>
                     <option value="Ruby">Ruby</option>
@@ -71,10 +71,11 @@
                     <option value="Azure">Azure</option>
                 </select>
                 <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">3ª Tecnologia</label>
-                <select id="id-tec-3" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <select id="tec-3" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option value="React">React</option>
                     <option value="Vue">Vue</option>
-                    <option selected value="Node">Node</option>
+                    <option value="Node">Node</option>
+                    <option selected value="firebase">Firebase</option>
                     <option value="Laravel">Laravel</option>
                     <option value="PHP">PHP</option>
                     <option value="Ruby">Ruby</option>
@@ -85,17 +86,17 @@
                     <option value="Azure">Azure</option>
                 </select>
                 <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">4ª Tecnologia</label>
-                <select id="id-tec-4" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <select id="tec-4" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option value="React">React</option>
                     <option value="Vue">Vue</option>
                     <option value="Node">Node</option>
-                    <option selected value="Laravel">Laravel</option>
+                    <option value="Laravel">Laravel</option>
                     <option value="PHP">PHP</option>
                     <option value="Ruby">Ruby</option>
                     <option value="C#">C#</option>
                     <option value="Svelte">Svelte</option>
                     <option value="AWS">AWS</option>
-                    <option value="GCP">GCP</option>
+                    <option selected value="gcp">GCP</option>
                     <option value="Azure">Azure</option>
                 </select>
                 <div class="flex justify-end mt-16">
