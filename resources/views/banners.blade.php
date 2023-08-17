@@ -44,59 +44,59 @@
 
                 <label class="block mb-3 mt-16 text-large font-medium text-gray-900 dark:text-white">1ª Tecnologia</label>
                 <select id="id-tec-1" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option selected value="React">React</option>
-                    <option value="Vue">Vue</option>
-                    <option value="Node">Node</option>
-                    <option value="Laravel">Laravel</option>
-                    <option value="PHP">PHP</option>
-                    <option value="Ruby">Ruby</option>
-                    <option value="C#">C#</option>
-                    <option value="Svelte">Svelte</option>
-                    <option value="AWS">AWS</option>
-                    <option value="GCP">GCP</option>
-                    <option value="Azure">Azure</option>
+                    <option selected value="react">React</option>
+                    <option value="vue">Vue</option>
+                    <option value="node">Node</option>
+                    <option value="laravel">Laravel</option>
+                    <option value="php">PHP</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="csharp">C#</option>
+                    <option value="svelte">Svelte</option>
+                    <option value="aws">AWS</option>
+                    <option value="gcp">GCP</option>
+                    <option value="azure">Azure</option>
                 </select>
                 <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">2ª Tecnologia</label>
                 <select id="id-tec-2" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option value="React">React</option>
-                    <option selected value="Vue">Vue</option>
-                    <option value="Node">Node</option>
-                    <option value="Laravel">Laravel</option>
-                    <option value="PHP">PHP</option>
-                    <option value="Ruby">Ruby</option>
-                    <option value="C#">C#</option>
-                    <option value="Svelte">Svelte</option>
-                    <option value="AWS">AWS</option>
-                    <option value="GCP">GCP</option>
-                    <option value="Azure">Azure</option>
+                    <option selected value="react">React</option>
+                    <option value="vue">Vue</option>
+                    <option selected value="node">Node</option>
+                    <option value="laravel">Laravel</option>
+                    <option value="php">PHP</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="csharp">C#</option>
+                    <option value="svelte">Svelte</option>
+                    <option value="aws">AWS</option>
+                    <option value="gcp">GCP</option>
+                    <option value="azure">Azure</option>
                 </select>
                 <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">3ª Tecnologia</label>
                 <select id="id-tec-3" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option value="React">React</option>
-                    <option value="Vue">Vue</option>
-                    <option selected value="Node">Node</option>
-                    <option value="Laravel">Laravel</option>
-                    <option value="PHP">PHP</option>
-                    <option value="Ruby">Ruby</option>
-                    <option value="C#">C#</option>
-                    <option value="Svelte">Svelte</option>
-                    <option value="AWS">AWS</option>
-                    <option value="GCP">GCP</option>
-                    <option value="Azure">Azure</option>
+                    <option value="react">React</option>
+                    <option value="vue">Vue</option>
+                    <option selected value="node">Node</option>
+                    <option value="laravel">Laravel</option>
+                    <option value="php">PHP</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="csharp">C#</option>
+                    <option value="svelte">Svelte</option>
+                    <option value="aws">AWS</option>
+                    <option value="gcp">GCP</option>
+                    <option value="azure">Azure</option>
                 </select>
                 <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">4ª Tecnologia</label>
                 <select id="id-tec-4" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option value="React">React</option>
-                    <option value="Vue">Vue</option>
-                    <option value="Node">Node</option>
-                    <option selected value="Laravel">Laravel</option>
-                    <option value="PHP">PHP</option>
-                    <option value="Ruby">Ruby</option>
-                    <option value="C#">C#</option>
-                    <option value="Svelte">Svelte</option>
-                    <option value="AWS">AWS</option>
-                    <option value="GCP">GCP</option>
-                    <option value="Azure">Azure</option>
+                    <option value="react">React</option>
+                    <option value="vue">Vue</option>
+                    <option value="node">Node</option>
+                    <option selected value="laravel">Laravel</option>
+                    <option value="php">PHP</option>
+                    <option value="ruby">Ruby</option>
+                    <option value="csharp">C#</option>
+                    <option value="svelte">Svelte</option>
+                    <option value="aws">AWS</option>
+                    <option value="gcp">GCP</option>
+                    <option value="azure">Azure</option>
                 </select>
                 <div class="flex justify-end mt-16">
                     <button onClick="downloadBanner()" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Gerar</button>

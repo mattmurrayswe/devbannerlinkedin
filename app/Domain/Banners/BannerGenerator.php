@@ -13,12 +13,32 @@ class BannerGenerator
     protected $fontSize = 18;
     protected $textColor;
     protected $uniqueName;
+    protected $tec1;
+    protected $tec2;
+    protected $tec3;
+    protected $tec4;
+    protected $email;
+    protected $position;
 
-    public function __construct()
+    public function __construct(
+        $tec1,
+        $tec2,
+        $tec3,
+        $tec4,
+        $email,
+        $position,
+    )
     {
         // Create a black banner canvas
         $this->banner = Image::canvas(1585, 396, '#000000');
         $this->textColor = imagecolorallocate($this->banner->getCore(), 255, 255, 255); // White color
+
+        $this->tec1 = $tec1;
+        $this->tec2 = $tec2;
+        $this->tec3 = $tec3;
+        $this->tec4 = $tec4;
+        $this->email = $email;
+        $this->position = $position;
     }
 
     public function generate()
@@ -33,8 +53,8 @@ class BannerGenerator
         $emailY = $positionY + $this->fontSize + $lineSpacing; // Adjust spacing between lines
     
         // Align text to the right with the specified right margin
-        $this->addText('matheusmurraydev@gmail.com', 1585 - $rightMargin, $emailY);
-        $this->addText('SOFTWARE ENGINEER', 1585 - $rightMargin, $positionY);
+        $this->addText($this->email, 1585 - $rightMargin, $emailY);
+        $this->addText($this->position, 1585 - $rightMargin, $positionY);
         
         $this->saveBanner();
         
@@ -43,7 +63,7 @@ class BannerGenerator
     
     protected function positionImages()
     {
-        $pngFiles = ['react.png', 'node.png', 'firebase.png', 'gcp.png'];
+        $pngFiles = ["$this->tec4.png", "$this->tec3.png", "$this->tec2.png", "$this->tec1.png"];
         $xPosition = $this->banner->width() - $this->spacing - $this->imageWidth - 10; // Adjusted X position
     
         foreach ($pngFiles as $pngFile) {
