@@ -44,7 +44,7 @@
 
                 <label class="block mb-3 mt-16 text-large font-medium text-gray-900 dark:text-white">1ª Tecnologia</label>
                 <select id="tec-1" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                    <option selected value="ada">Ada</option>
+                    <option value="ada">Ada</option>
                     <option value="algol">ALGOL</option>
                     <option value="assembly">Assembly</option>
                     <option value="aws">AWS</option>
@@ -55,6 +55,7 @@
                     <option value="c#">C#</option>
                     <option value="cobol">COBOL</option>
                     <option value="dart">Dart</option>
+                    <option value="docker">Docker</option>
                     <option value="elixir">Elixir</option>
                     <option value="erlang">Erlang</option>
                     <option value="f#">F#</option>
@@ -81,7 +82,7 @@
                     <option value="r">R</option>
                     <option value="ruby">Ruby</option>
                     <option value="rust">Rust</option>
-                    <option value="react">React</option>
+                    <option selected value="react">React</option>
                     <option value="scala">Scala</option>
                     <option value="scheme">Scheme</option>
                     <option value="shell">Shell</option>
@@ -98,7 +99,7 @@
                 </select>
                 <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">2ª Tecnologia</label>
                 <select id="tec-2" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                <option selected value="ada">Ada</option>
+                    <option value="ada">Ada</option>
                     <option value="algol">ALGOL</option>
                     <option value="assembly">Assembly</option>
                     <option value="aws">AWS</option>
@@ -113,7 +114,7 @@
                     <option value="elixir">Elixir</option>
                     <option value="erlang">Erlang</option>
                     <option value="f#">F#</option>
-                    <option value="firebase#">FireBase</option>
+                    <option value="firebase">FireBase</option>
                     <option value="fortran">Fortran</option>
                     <option value="gcp">GCP</option>
                     <option value="groovy">Groovy</option>
@@ -126,7 +127,7 @@
                     <option value="lisp">Lisp</option>
                     <option value="lua">Lua</option>
                     <option value="matlab">MATLAB</option>
-                    <option value="node">Node</option>
+                    <option selected value="node">Node</option>
                     <option value="objective-c">Objective-C</option>
                     <option value="pascal">Pascal</option>
                     <option value="perl">Perl</option>
@@ -156,9 +157,11 @@
                     <option value="c#">C#</option>
                     <option value="cobol">COBOL</option>
                     <option value="dart">Dart</option>
+                    <option value="docker">Docker</option>
                     <option value="elixir">Elixir</option>
                     <option value="erlang">Erlang</option>
                     <option value="f#">F#</option>
+                    <option selected value="firebase">Firebase</option>
                     <option value="fortran">Fortran</option>
                     <option value="go">Go</option>
                     <option value="gcp">GCP</option>
@@ -209,12 +212,13 @@
                     <option value="c#">C#</option>
                     <option value="cobol">COBOL</option>
                     <option value="dart">Dart</option>
+                    <option value="docker">Docker</option>
                     <option value="elixir">Elixir</option>
                     <option value="erlang">Erlang</option>
                     <option value="f#">F#</option>
                     <option value="fortran">Fortran</option>
                     <option value="go">Go</option>
-                    <option value="gcp">GCP</option>
+                    <option selected value="gcp">GCP</option>
                     <option value="groovy">Groovy</option>
                     <option value="haskell">Haskell</option>
                     <option value="java">Java</option>
