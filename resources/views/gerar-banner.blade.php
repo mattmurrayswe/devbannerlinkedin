@@ -36,14 +36,14 @@
                     </div>
                 </div>
 
-                <label for="position" class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">Cargo</label>
-                <input id="position" value="SOFTWARE ENGINEER" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <label for="position" class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-gray-900">Cargo</label>
+                <input id="position" value="SOFTWARE ENGINEER" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500">
 
-                <label for="email" class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">Email</label>
-                <input id="email" value="matheusmurraydev@gmail.com" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <label for="email" class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-gray-900">Email</label>
+                <input id="email" value="matheusmurraydev@gmail.com" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500">
 
-                <label class="block mb-3 mt-16 text-large font-medium text-gray-900 dark:text-white">1ª Tecnologia</label>
-                <select id="tec-1" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <label class="block mb-3 mt-16 text-large font-medium text-gray-900 dark:text-gray-900">1ª Tecnologia</label>
+                <select id="tec-1" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option value="ada">Ada</option>
                     <option value="algol">ALGOL</option>
                     <option value="assembly">Assembly</option>
@@ -97,8 +97,8 @@
                     <option value="whitespace">Whitespace</option>
 
                 </select>
-                <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">2ª Tecnologia</label>
-                <select id="tec-2" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-gray-900">2ª Tecnologia</label>
+                <select id="tec-2" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500">
                     <option value="ada">Ada</option>
                     <option value="algol">ALGOL</option>
                     <option value="assembly">Assembly</option>
@@ -144,8 +144,8 @@
                     <option value="typescript">TypeScript</option>
                     <option value="vue">Vue</option>
                 </select>
-                <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">3ª Tecnologia</label>
-                <select id="tec-3" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-gray-900">3ª Tecnologia</label>
+                <select id="tec-3" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500">
                 <option selected value="ada">Ada</option>
                     <option value="algol">ALGOL</option>
                     <option value="assembly">Assembly</option>
@@ -199,8 +199,8 @@
                     <option value="vue">Vue</option>
                     <option value="whitespace">Whitespace</option>
                 </select>
-                <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-white">4ª Tecnologia</label>
-                <select id="tec-4" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
+                <label class="block mb-3 mt-6 text-large font-medium text-gray-900 dark:text-gray-900">4ª Tecnologia</label>
+                <select id="tec-4" class="mb-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-900 dark:focus:ring-primary-500 dark:focus:border-primary-500">
                 <option selected value="ada">Ada</option>
                     <option value="algol">ALGOL</option>
                     <option value="assembly">Assembly</option>
